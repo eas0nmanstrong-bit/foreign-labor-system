@@ -17,6 +17,7 @@ import EmployeeDetail from './pages/Employee/EmployeeDetail';
 import VendorList from './pages/Vendor/VendorList';
 import VendorForm from './pages/Vendor/VendorForm';
 import VendorDetail from './pages/Vendor/VendorDetail';
+import DocumentationCenter from './pages/DocumentationCenter';
 
 // Placeholder components
 const AdminPanel = () => <h1 className="text-2xl font-bold">系統管理模組 (開發中)</h1>;
@@ -64,6 +65,8 @@ function App() {
             <Route path="vendors/new" element={<VendorForm />} />
             <Route path="vendors/:id" element={<VendorDetail />} />
             <Route path="vendors/:id/edit" element={<VendorForm />} />
+
+            <Route path="documentation" element={<DocumentationCenter />} />
 
             <Route path="admin" element={<AdminPanel />} />
           </Route>

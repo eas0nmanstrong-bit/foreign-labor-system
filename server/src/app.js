@@ -8,6 +8,7 @@ const clientRoutes = require('./routes/clients');
 const laborRoutes = require('./routes/labors');
 const userRoutes = require('./routes/users');
 const vendorRoutes = require('./routes/vendors');
+const contractRoutes = require('./routes/contracts');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -23,6 +24,7 @@ app.use('/api/clients', clientRoutes);
 app.use('/api/labors', laborRoutes);
 app.use('/api/users', userRoutes);
 app.use('/api/vendors', vendorRoutes);
+app.use('/api/contracts', contractRoutes);
 
 // Basic Route
 app.get('/', (req, res) => {

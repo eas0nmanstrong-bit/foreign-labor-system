@@ -102,6 +102,30 @@ const LaborPayment = sequelize.define('LaborPayment', {
 Labor.hasMany(LaborPayment, { foreignKey: 'labor_id' });
 LaborPayment.belongsTo(Labor, { foreignKey: 'labor_id' });
 
+const Contract = sequelize.define('Contract', {
+    contract_number: { type: DataTypes.STRING, unique: true },
+    filename: { type: DataTypes.STRING, allowNull: false },
+    original_name: { type: DataTypes.STRING, allowNull: false },
+    category: { type: DataTypes.STRING, allowNull: false },
+    file_path: { type: DataTypes.STRING, allowNull: false },
+    file_size: { type: DataTypes.INTEGER },
+    mime_type: { type: DataTypes.STRING },
+    description: { type: DataTypes.TEXT },
+    labor_id: { type: DataTypes.INTEGER, references: { model: Labor, key: 'id' } },
+    vendor_id: { type: DataTypes.INTEGER, references: { model: 'Vendors', key: 'id' } },
+    client_id: { type: DataTypes.INTEGER, references: { model: 'Clients', key: 'id' } },
+    uploaded_by: { type: DataTypes.INTEGER, references: { model: User, key: 'id' } },
+    upload_date: { type: DataTypes.DATE, defaultValue: DataTypes.NOW }
+});
+
+Contract.belongsTo(User, { as: 'Uploader', foreignKey: 'uploaded_by' });
+User.hasMany(Contract, { foreignKey: 'uploaded_by' });
+
+Contract.belongsTo(Labor, { foreignKey: 'labor_id' });
+Labor.hasMany(Contract, { foreignKey: 'labor_id' });
+
+
+
 const Vendor = sequelize.define('Vendor', {
     vendor_no: { type: DataTypes.STRING, allowNull: false, unique: true },
     name: { type: DataTypes.STRING, allowNull: false },
@@ -141,4 +165,12 @@ const Vendor = sequelize.define('Vendor', {
 Vendor.belongsTo(User, { as: 'Owner', foreignKey: 'owner_id' });
 User.hasMany(Vendor, { foreignKey: 'owner_id' });
 
-module.exports = { User, Role, Permission, Menu, RolePermission, Client, Labor, LaborPayment, Vendor };
+// Contract relationships with Vendor and Client
+Contract.belongsTo(Vendor, { foreignKey: 'vendor_id' });
+Vendor.hasMany(Contract, { foreignKey: 'vendor_id' });
+
+Contract.belongsTo(Client, { foreignKey: 'client_id' });
+Client.hasMany(Contract, { foreignKey: 'client_id' });
+
+
+module.exports = { User, Role, Permission, Menu, RolePermission, Client, Labor, LaborPayment, Contract, Vendor };

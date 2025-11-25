@@ -54,7 +54,7 @@ const Login = () => {
                     </button>
                 </form>
                 <div className="mt-4 text-center text-sm text-gray-500">
-                    預設帳號: admin / staff <br /> 預設密碼: password
+                    預設帳號: adm <br /> 預設密碼: 1234
                 </div>
             </div>
         </div>

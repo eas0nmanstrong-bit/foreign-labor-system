@@ -6,11 +6,13 @@ const LaborDetail = () => {
     const { id } = useParams();
     const navigate = useNavigate();
     const [labor, setLabor] = useState(null);
+    const [contracts, setContracts] = useState([]);
     const [loading, setLoading] = useState(true);
     const [activeTab, setActiveTab] = useState('basic');
 
     useEffect(() => {
         fetchLabor();
+        fetchContracts();
     }, [id]);
 
     const fetchLabor = async () => {
@@ -21,6 +23,16 @@ const LaborDetail = () => {
             console.error('Error fetching labor:', error);
         } finally {
             setLoading(false);
+        }
+    };
+
+    const fetchContracts = async () => {
+        try {
+            const response = await api.get('/contracts');
+            const laborContracts = response.data.filter(c => c.labor_id === parseInt(id));
+            setContracts(laborContracts);
+        } catch (error) {
+            console.error('Error fetching contracts:', error);
         }
     };
 
@@ -67,6 +79,15 @@ const LaborDetail = () => {
                             } whitespace-nowrap py-4 px-1 border-b-2 font-medium text-sm`}
                     >
                         應收帳款
+                    </button>
+                    <button
+                        onClick={() => setActiveTab('contract')}
+                        className={`${activeTab === 'contract'
+                            ? 'border-blue-500 text-blue-600'
+                            : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'
+                            } whitespace-nowrap py-4 px-1 border-b-2 font-medium text-sm`}
+                    >
+                        合約資訊
                     </button>
                 </nav>
             </div>
@@ -183,6 +204,43 @@ const LaborDetail = () => {
                                 )}
                             </tbody>
                         </table>
+                    </div>
+                </div>
+            )}
+
+            {/* Contract Tab */}
+            {activeTab === 'contract' && (
+                <div className="bg-white shadow overflow-hidden sm:rounded-lg">
+                    <div className="px-4 py-5 sm:px-6 bg-gray-50 border-b border-gray-200">
+                        <h3 className="text-lg leading-6 font-medium text-gray-900">合約資訊</h3>
+                    </div>
+                    <div className="p-4">
+                        {contracts.length > 0 ? (
+                            <div className="space-y-3">
+                                {contracts.map((contract) => (
+                                    <div key={contract.id} className="border border-gray-200 rounded-lg p-4 hover:bg-gray-50">
+                                        <div className="flex justify-between items-start">
+                                            <div>
+                                                <h4 className="font-semibold text-gray-900">{contract.original_name}</h4>
+                                                <p className="text-sm text-gray-600 mt-1">合約編號：{contract.contract_number}</p>
+                                                <p className="text-sm text-gray-500 mt-1">上傳時間：{new Date(contract.upload_date).toLocaleDateString('zh-TW')}</p>
+                                                {contract.description && (
+                                                    <p className="text-sm text-gray-500 mt-1">{contract.description}</p>
+                                                )}
+                                            </div>
+                                            <Link
+                                                to="/documentation"
+                                                className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 text-sm"
+                                            >
+                                                查看合約
+                                            </Link>
+                                        </div>
+                                    </div>
+                                ))}
+                            </div>
+                        ) : (
+                            <p className="text-gray-500 text-center py-8">目前沒有合約資料</p>
+                        )}
                     </div>
                 </div>
             )}
