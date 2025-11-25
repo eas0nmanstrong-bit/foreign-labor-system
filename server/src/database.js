@@ -1,0 +1,20 @@
+const { Sequelize } = require('sequelize');
+const path = require('path');
+
+// Initialize SQLite database
+const sequelize = new Sequelize({
+    dialect: 'sqlite',
+    storage: path.join(__dirname, '..', 'database.sqlite'), // Store in root of server or project
+    logging: false, // Disable logging for cleaner output
+});
+
+const connectDB = async () => {
+    try {
+        await sequelize.authenticate();
+        console.log('SQLite database connected successfully.');
+    } catch (error) {
+        console.error('Unable to connect to the database:', error);
+    }
+};
+
+module.exports = { sequelize, connectDB };

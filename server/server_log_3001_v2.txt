@@ -1,0 +1,4 @@
+SQLite database connected successfully.
+Server is running on http://localhost:3001 
+JWT Verification Error: jwt malformed
+Received Token: undefined

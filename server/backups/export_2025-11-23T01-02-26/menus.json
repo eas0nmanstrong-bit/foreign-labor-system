@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "label": "儀表板",
+    "path": "/dashboard",
+    "icon": "Home",
+    "permission_required": null,
+    "parent_id": null,
+    "order": 1,
+    "createdAt": "2025-11-22T07:17:45.127Z",
+    "updatedAt": "2025-11-22T07:17:45.127Z"
+  },
+  {
+    "id": 2,
+    "label": "外勞管理",
+    "path": "/labors",
+    "icon": "Users",
+    "permission_required": "labor:read",
+    "parent_id": null,
+    "order": 2,
+    "createdAt": "2025-11-22T07:17:45.127Z",
+    "updatedAt": "2025-11-22T07:17:45.127Z"
+  },
+  {
+    "id": 3,
+    "label": "雇主管理",
+    "path": "/clients",
+    "icon": "Briefcase",
+    "permission_required": "client:read",
+    "parent_id": null,
+    "order": 3,
+    "createdAt": "2025-11-22T07:17:45.127Z",
+    "updatedAt": "2025-11-22T07:17:45.127Z"
+  },
+  {
+    "id": 4,
+    "label": "合約管理",
+    "path": "/contracts",
+    "icon": "FileText",
+    "permission_required": "contract:read",
+    "parent_id": null,
+    "order": 4,
+    "createdAt": "2025-11-22T07:17:45.127Z",
+    "updatedAt": "2025-11-22T07:17:45.127Z"
+  },
+  {
+    "id": 5,
+    "label": "系統管理",
+    "path": "/admin",
+    "icon": "Settings",
+    "permission_required": "admin:access",
+    "parent_id": null,
+    "order": 99,
+    "createdAt": "2025-11-22T07:17:45.127Z",
+    "updatedAt": "2025-11-22T07:17:45.127Z"
+  },
+  {
+    "id": 6,
+    "label": "員工管理",
+    "path": "/employees",
+    "icon": "UserGroup",
+    "permission_required": "admin:access",
+    "parent_id": null,
+    "order": 5,
+    "createdAt": "2025-11-22T09:55:50.579Z",
+    "updatedAt": "2025-11-22T09:55:50.579Z"
+  }
+]

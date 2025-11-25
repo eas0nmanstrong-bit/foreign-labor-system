@@ -1,0 +1,116 @@
+[
+  {
+    "id": 1,
+    "username": "0000000",
+    "role_id": 1,
+    "email": "admin@company.com",
+    "phone": "02-2345-6789",
+    "department": "管理部",
+    "position": "系統管理員",
+    "hire_date": "2020-01-01",
+    "createdAt": "2025-11-22T07:17:45.193Z",
+    "updatedAt": "2025-11-22T10:46:28.835Z",
+    "Role": {
+      "id": 1,
+      "name": "Admin",
+      "description": "Administrator with full access",
+      "createdAt": "2025-11-22T07:17:45.001Z",
+      "updatedAt": "2025-11-22T07:17:45.001Z"
+    }
+  },
+  {
+    "id": 1200001,
+    "username": "1200001",
+    "role_id": 2,
+    "email": "wang.xiaoming@company.com",
+    "phone": "0912-345-678",
+    "department": "業務部",
+    "position": "業務專員",
+    "hire_date": "2022-06-01",
+    "createdAt": "2025-11-22T10:40:52.211Z",
+    "updatedAt": "2025-11-22T10:46:28.848Z",
+    "Role": {
+      "id": 2,
+      "name": "Staff",
+      "description": "Standard staff member",
+      "createdAt": "2025-11-22T07:17:45.033Z",
+      "updatedAt": "2025-11-22T07:17:45.033Z"
+    }
+  },
+  {
+    "id": 1200002,
+    "username": "1200002",
+    "role_id": 2,
+    "email": "li.meihua@company.com",
+    "phone": "0923-456-789",
+    "department": "業務部",
+    "position": "業務專員",
+    "hire_date": "2022-08-15",
+    "createdAt": "2025-11-22T10:40:52.221Z",
+    "updatedAt": "2025-11-22T10:46:28.855Z",
+    "Role": {
+      "id": 2,
+      "name": "Staff",
+      "description": "Standard staff member",
+      "createdAt": "2025-11-22T07:17:45.033Z",
+      "updatedAt": "2025-11-22T07:17:45.033Z"
+    }
+  },
+  {
+    "id": 1200003,
+    "username": "1200003",
+    "role_id": 2,
+    "email": "zhang.zhiqiang@company.com",
+    "phone": "0934-567-890",
+    "department": "維護部",
+    "position": "維護人員",
+    "hire_date": "2021-11-20",
+    "createdAt": "2025-11-22T10:40:52.225Z",
+    "updatedAt": "2025-11-22T10:46:28.862Z",
+    "Role": {
+      "id": 2,
+      "name": "Staff",
+      "description": "Standard staff member",
+      "createdAt": "2025-11-22T07:17:45.033Z",
+      "updatedAt": "2025-11-22T07:17:45.033Z"
+    }
+  },
+  {
+    "id": 1200004,
+    "username": "1200004",
+    "role_id": 2,
+    "email": "chen.yating@company.com",
+    "phone": "0945-678-901",
+    "department": "維護部",
+    "position": "維護人員",
+    "hire_date": "2023-02-10",
+    "createdAt": "2025-11-22T10:40:52.229Z",
+    "updatedAt": "2025-11-22T10:46:28.870Z",
+    "Role": {
+      "id": 2,
+      "name": "Staff",
+      "description": "Standard staff member",
+      "createdAt": "2025-11-22T07:17:45.033Z",
+      "updatedAt": "2025-11-22T07:17:45.033Z"
+    }
+  },
+  {
+    "id": 1200005,
+    "username": "1200005",
+    "role_id": 2,
+    "email": "lin.jianhong@company.com",
+    "phone": "0956-789-012",
+    "department": "維護部",
+    "position": "維護人員",
+    "hire_date": "2023-05-01",
+    "createdAt": "2025-11-22T10:40:52.233Z",
+    "updatedAt": "2025-11-22T10:46:28.879Z",
+    "Role": {
+      "id": 2,
+      "name": "Staff",
+      "description": "Standard staff member",
+      "createdAt": "2025-11-22T07:17:45.033Z",
+      "updatedAt": "2025-11-22T07:17:45.033Z"
+    }
+  }
+]

@@ -1,0 +1,218 @@
+[
+  {
+    "id": 13,
+    "client_no": "A001",
+    "name": "王大明",
+    "tax_id": "A123456789",
+    "contact_name": "王大明",
+    "phone": "0911111111",
+    "address": "台北市信義區",
+    "industry": "家庭看護",
+    "dept_code": "",
+    "owner_id": 1,
+    "createdAt": "2025-11-22T07:55:22.147Z",
+    "updatedAt": "2025-11-22T10:40:52.090Z",
+    "Owner": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 14,
+    "client_no": "A002",
+    "name": "李小美",
+    "tax_id": "B223456789",
+    "contact_name": "李小美",
+    "phone": "0922222222",
+    "address": "新北市板橋區",
+    "industry": "家庭看護",
+    "dept_code": "",
+    "owner_id": 1,
+    "createdAt": "2025-11-22T07:55:22.159Z",
+    "updatedAt": "2025-11-22T10:40:52.090Z",
+    "Owner": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 15,
+    "client_no": "B001",
+    "name": "宏達電",
+    "tax_id": "12345679",
+    "contact_name": "李經理",
+    "phone": "0911111111",
+    "address": "新北市新店區",
+    "industry": "製造業",
+    "dept_code": "RD-01",
+    "owner_id": 1,
+    "createdAt": "2025-11-22T07:55:22.164Z",
+    "updatedAt": "2025-11-22T10:40:52.090Z",
+    "Owner": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 16,
+    "client_no": "B002",
+    "name": "聯發科",
+    "tax_id": "12345680",
+    "contact_name": "陳特助",
+    "phone": "0922222222",
+    "address": "新竹科學園區",
+    "industry": "製造業",
+    "dept_code": "IC-02",
+    "owner_id": 1,
+    "createdAt": "2025-11-22T07:55:22.170Z",
+    "updatedAt": "2025-11-22T10:40:52.090Z",
+    "Owner": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 17,
+    "client_no": "B003",
+    "name": "中華電信",
+    "tax_id": "12345681",
+    "contact_name": "林科長",
+    "phone": "0933333333",
+    "address": "台北市中正區",
+    "industry": "服務業",
+    "dept_code": "TEL-03",
+    "owner_id": 1,
+    "createdAt": "2025-11-22T07:55:22.177Z",
+    "updatedAt": "2025-11-22T10:40:52.090Z",
+    "Owner": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 18,
+    "client_no": "B004",
+    "name": "富邦金控",
+    "tax_id": "12345682",
+    "contact_name": "黃襄理",
+    "phone": "0944444444",
+    "address": "台北市大安區",
+    "industry": "金融業",
+    "dept_code": "FIN-04",
+    "owner_id": 1,
+    "createdAt": "2025-11-22T07:55:22.181Z",
+    "updatedAt": "2025-11-22T10:40:52.090Z",
+    "Owner": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 19,
+    "client_no": "B005",
+    "name": "長榮海運",
+    "tax_id": "12345683",
+    "contact_name": "吳船長",
+    "phone": "0955555555",
+    "address": "桃園市蘆竹區",
+    "industry": "運輸業",
+    "dept_code": "SEA-05",
+    "owner_id": 1,
+    "createdAt": "2025-11-22T07:55:22.189Z",
+    "updatedAt": "2025-11-22T10:40:52.090Z",
+    "Owner": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 20,
+    "client_no": "B006",
+    "name": "統一企業",
+    "tax_id": "12345684",
+    "contact_name": "蔡店長",
+    "phone": "0966666666",
+    "address": "台南市永康區",
+    "industry": "食品業",
+    "dept_code": "FOOD-06",
+    "owner_id": 1,
+    "createdAt": "2025-11-22T07:55:22.194Z",
+    "updatedAt": "2025-11-22T10:40:52.090Z",
+    "Owner": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 21,
+    "client_no": "B007",
+    "name": "中鋼",
+    "tax_id": "12345685",
+    "contact_name": "鄭廠長",
+    "phone": "0977777777",
+    "address": "高雄市小港區",
+    "industry": "製造業",
+    "dept_code": "STEEL-07",
+    "owner_id": 1,
+    "createdAt": "2025-11-22T07:55:22.199Z",
+    "updatedAt": "2025-11-22T10:40:52.090Z",
+    "Owner": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 22,
+    "client_no": "B008",
+    "name": "台塑",
+    "tax_id": "12345686",
+    "contact_name": "王組長",
+    "phone": "0988888888",
+    "address": "台北市松山區",
+    "industry": "石化業",
+    "dept_code": "CHEM-08",
+    "owner_id": 1,
+    "createdAt": "2025-11-22T07:55:22.214Z",
+    "updatedAt": "2025-11-22T10:40:52.090Z",
+    "Owner": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 23,
+    "client_no": "B009",
+    "name": "國泰人壽",
+    "tax_id": "12345687",
+    "contact_name": "劉主任",
+    "phone": "0999999999",
+    "address": "台北市大安區",
+    "industry": "保險業",
+    "dept_code": "INS-09",
+    "owner_id": 1,
+    "createdAt": "2025-11-22T07:55:22.224Z",
+    "updatedAt": "2025-11-22T10:40:52.090Z",
+    "Owner": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 24,
+    "client_no": "B010",
+    "name": "華碩電腦",
+    "tax_id": "12345688",
+    "contact_name": "施經理",
+    "phone": "0900000000",
+    "address": "台北市北投區",
+    "industry": "科技業",
+    "dept_code": "PC-10",
+    "owner_id": 1,
+    "createdAt": "2025-11-22T07:55:22.231Z",
+    "updatedAt": "2025-11-22T10:40:52.090Z",
+    "Owner": {
+      "id": 1,
+      "username": "0000000"
+    }
+  }
+]

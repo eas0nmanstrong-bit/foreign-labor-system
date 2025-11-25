@@ -1,0 +1,150 @@
+[
+  {
+    "id": 1,
+    "name": "Admin",
+    "description": "Administrator with full access",
+    "createdAt": "2025-11-22T07:17:45.001Z",
+    "updatedAt": "2025-11-22T07:17:45.001Z",
+    "Permissions": [
+      {
+        "id": 1,
+        "code": "labor:read",
+        "description": "View labors",
+        "createdAt": "2025-11-22T07:17:45.045Z",
+        "updatedAt": "2025-11-22T07:17:45.045Z",
+        "RolePermission": {
+          "role_id": 1,
+          "permission_id": 1,
+          "createdAt": "2025-11-22T07:17:45.110Z",
+          "updatedAt": "2025-11-22T07:17:45.110Z"
+        }
+      },
+      {
+        "id": 2,
+        "code": "labor:write",
+        "description": "Create/Edit labors",
+        "createdAt": "2025-11-22T07:17:45.051Z",
+        "updatedAt": "2025-11-22T07:17:45.051Z",
+        "RolePermission": {
+          "role_id": 1,
+          "permission_id": 2,
+          "createdAt": "2025-11-22T07:17:45.110Z",
+          "updatedAt": "2025-11-22T07:17:45.110Z"
+        }
+      },
+      {
+        "id": 3,
+        "code": "client:read",
+        "description": "View clients",
+        "createdAt": "2025-11-22T07:17:45.064Z",
+        "updatedAt": "2025-11-22T07:17:45.064Z",
+        "RolePermission": {
+          "role_id": 1,
+          "permission_id": 3,
+          "createdAt": "2025-11-22T07:17:45.110Z",
+          "updatedAt": "2025-11-22T07:17:45.110Z"
+        }
+      },
+      {
+        "id": 4,
+        "code": "client:write",
+        "description": "Create/Edit clients",
+        "createdAt": "2025-11-22T07:17:45.073Z",
+        "updatedAt": "2025-11-22T07:17:45.073Z",
+        "RolePermission": {
+          "role_id": 1,
+          "permission_id": 4,
+          "createdAt": "2025-11-22T07:17:45.110Z",
+          "updatedAt": "2025-11-22T07:17:45.110Z"
+        }
+      },
+      {
+        "id": 5,
+        "code": "contract:read",
+        "description": "View contracts",
+        "createdAt": "2025-11-22T07:17:45.080Z",
+        "updatedAt": "2025-11-22T07:17:45.080Z",
+        "RolePermission": {
+          "role_id": 1,
+          "permission_id": 5,
+          "createdAt": "2025-11-22T07:17:45.110Z",
+          "updatedAt": "2025-11-22T07:17:45.110Z"
+        }
+      },
+      {
+        "id": 6,
+        "code": "contract:write",
+        "description": "Create/Edit contracts",
+        "createdAt": "2025-11-22T07:17:45.084Z",
+        "updatedAt": "2025-11-22T07:17:45.084Z",
+        "RolePermission": {
+          "role_id": 1,
+          "permission_id": 6,
+          "createdAt": "2025-11-22T07:17:45.110Z",
+          "updatedAt": "2025-11-22T07:17:45.110Z"
+        }
+      },
+      {
+        "id": 7,
+        "code": "admin:access",
+        "description": "Access admin panel",
+        "createdAt": "2025-11-22T07:17:45.094Z",
+        "updatedAt": "2025-11-22T07:17:45.094Z",
+        "RolePermission": {
+          "role_id": 1,
+          "permission_id": 7,
+          "createdAt": "2025-11-22T07:17:45.110Z",
+          "updatedAt": "2025-11-22T07:17:45.110Z"
+        }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Staff",
+    "description": "Standard staff member",
+    "createdAt": "2025-11-22T07:17:45.033Z",
+    "updatedAt": "2025-11-22T07:17:45.033Z",
+    "Permissions": [
+      {
+        "id": 1,
+        "code": "labor:read",
+        "description": "View labors",
+        "createdAt": "2025-11-22T07:17:45.045Z",
+        "updatedAt": "2025-11-22T07:17:45.045Z",
+        "RolePermission": {
+          "role_id": 2,
+          "permission_id": 1,
+          "createdAt": "2025-11-22T07:17:45.116Z",
+          "updatedAt": "2025-11-22T07:17:45.116Z"
+        }
+      },
+      {
+        "id": 2,
+        "code": "labor:write",
+        "description": "Create/Edit labors",
+        "createdAt": "2025-11-22T07:17:45.051Z",
+        "updatedAt": "2025-11-22T07:17:45.051Z",
+        "RolePermission": {
+          "role_id": 2,
+          "permission_id": 2,
+          "createdAt": "2025-11-22T07:17:45.116Z",
+          "updatedAt": "2025-11-22T07:17:45.116Z"
+        }
+      },
+      {
+        "id": 3,
+        "code": "client:read",
+        "description": "View clients",
+        "createdAt": "2025-11-22T07:17:45.064Z",
+        "updatedAt": "2025-11-22T07:17:45.064Z",
+        "RolePermission": {
+          "role_id": 2,
+          "permission_id": 3,
+          "createdAt": "2025-11-22T07:17:45.116Z",
+          "updatedAt": "2025-11-22T07:17:45.116Z"
+        }
+      }
+    ]
+  }
+]

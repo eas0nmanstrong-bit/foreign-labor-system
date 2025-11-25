@@ -1,0 +1,2004 @@
+[
+  {
+    "id": 1,
+    "worker_no": "WA001-1",
+    "name_en": "SITI NURHALIZA",
+    "name_zh": "西蒂",
+    "passport_no": "P39040",
+    "entry_date": "2025-11-18",
+    "arc_no": "ARC39040",
+    "arc_expiry_date": "2025-11-26",
+    "employment_date": "2025-11-22",
+    "residence_address": "高雄市前金區中山路4段83巷314號14樓",
+    "lease_id": null,
+    "client_id": 13,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.578Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 13,
+      "client_no": "A001",
+      "name": "王大明"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 2,
+    "worker_no": "WA002-1",
+    "name_en": "BUDI SANTOSO",
+    "name_zh": "布迪",
+    "passport_no": "P53750",
+    "entry_date": "2025-08-15",
+    "arc_no": "ARC53750",
+    "arc_expiry_date": "2025-12-19",
+    "employment_date": "2025-11-22",
+    "residence_address": "台南市西屯區民權路1段54巷476號6樓",
+    "lease_id": null,
+    "client_id": 14,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.585Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 14,
+      "client_no": "A002",
+      "name": "李小美"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 3,
+    "worker_no": "WB001-1",
+    "name_en": "NGUYEN VAN HUNG",
+    "name_zh": "阮文雄",
+    "passport_no": "P17840",
+    "entry_date": "2025-09-11",
+    "arc_no": "ARC17840",
+    "arc_expiry_date": "2026-02-15",
+    "employment_date": "2025-11-22",
+    "residence_address": "新北市中壢區民權路1段151巷312號2樓",
+    "lease_id": null,
+    "client_id": 15,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.590Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 15,
+      "client_no": "B001",
+      "name": "宏達電"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 4,
+    "worker_no": "WB001-2",
+    "name_en": "TRAN THI MAI",
+    "name_zh": "陳氏梅",
+    "passport_no": "P40731",
+    "entry_date": "2025-10-16",
+    "arc_no": "ARC40731",
+    "arc_expiry_date": "2026-01-14",
+    "employment_date": "2025-11-22",
+    "residence_address": "高雄市安平區信義路2段270巷381號2樓",
+    "lease_id": null,
+    "client_id": 15,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.593Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 15,
+      "client_no": "B001",
+      "name": "宏達電"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 5,
+    "worker_no": "WB001-3",
+    "name_en": "MARIA SANTOS",
+    "name_zh": "瑪麗亞",
+    "passport_no": "P99992",
+    "entry_date": "2025-10-09",
+    "arc_no": "ARC99992",
+    "arc_expiry_date": "2026-02-12",
+    "employment_date": "2025-11-22",
+    "residence_address": "桃園市大安區建國路1段174巷32號4樓",
+    "lease_id": null,
+    "client_id": 15,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.596Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 15,
+      "client_no": "B001",
+      "name": "宏達電"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 6,
+    "worker_no": "WB001-4",
+    "name_en": "JOSE GARCIA",
+    "name_zh": "荷西",
+    "passport_no": "P05633",
+    "entry_date": "2025-09-02",
+    "arc_no": "ARC05633",
+    "arc_expiry_date": "2026-02-19",
+    "employment_date": "2025-11-22",
+    "residence_address": "台南市中壢區民權路3段287巷477號11樓",
+    "lease_id": null,
+    "client_id": 15,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.601Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 15,
+      "client_no": "B001",
+      "name": "宏達電"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 7,
+    "worker_no": "WB001-5",
+    "name_en": "SOMCHAI KAEW",
+    "name_zh": "頌猜",
+    "passport_no": "P75904",
+    "entry_date": "2025-11-14",
+    "arc_no": "ARC75904",
+    "arc_expiry_date": "2026-01-14",
+    "employment_date": "2025-11-22",
+    "residence_address": "台中市西屯區仁愛路1段185巷307號1樓",
+    "lease_id": null,
+    "client_id": 15,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.606Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 15,
+      "client_no": "B001",
+      "name": "宏達電"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 8,
+    "worker_no": "WB001-6",
+    "name_en": "WATI SARI",
+    "name_zh": "瓦蒂",
+    "passport_no": "P70735",
+    "entry_date": "2025-08-27",
+    "arc_no": "ARC70735",
+    "arc_expiry_date": "2026-02-01",
+    "employment_date": "2025-11-22",
+    "residence_address": "高雄市北區信義路2段288巷188號7樓",
+    "lease_id": null,
+    "client_id": 15,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.612Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 15,
+      "client_no": "B001",
+      "name": "宏達電"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 9,
+    "worker_no": "WB001-7",
+    "name_en": "AGUS SETIAWAN",
+    "name_zh": "阿古斯",
+    "passport_no": "P74846",
+    "entry_date": "2025-09-28",
+    "arc_no": "ARC74846",
+    "arc_expiry_date": "2026-01-21",
+    "employment_date": "2025-11-22",
+    "residence_address": "高雄市前金區仁愛路5段171巷214號5樓",
+    "lease_id": null,
+    "client_id": 15,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.617Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 15,
+      "client_no": "B001",
+      "name": "宏達電"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 10,
+    "worker_no": "WB002-1",
+    "name_en": "LE VAN NAM",
+    "name_zh": "黎文南",
+    "passport_no": "P42450",
+    "entry_date": "2025-10-11",
+    "arc_no": "ARC42450",
+    "arc_expiry_date": "2026-03-14",
+    "employment_date": "2025-11-22",
+    "residence_address": "台中市中正區中華路4段297巷100號14樓",
+    "lease_id": null,
+    "client_id": 16,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.623Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 16,
+      "client_no": "B002",
+      "name": "聯發科"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 11,
+    "worker_no": "WB002-2",
+    "name_en": "PHAM THI HOA",
+    "name_zh": "范氏花",
+    "passport_no": "P45731",
+    "entry_date": "2025-09-16",
+    "arc_no": "ARC45731",
+    "arc_expiry_date": "2026-01-18",
+    "employment_date": "2025-11-22",
+    "residence_address": "台南市大安區中山路2段144巷4號12樓",
+    "lease_id": null,
+    "client_id": 16,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.631Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 16,
+      "client_no": "B002",
+      "name": "聯發科"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 12,
+    "worker_no": "WB002-3",
+    "name_en": "JUAN DELA CRUZ",
+    "name_zh": "璜",
+    "passport_no": "P04232",
+    "entry_date": "2025-10-25",
+    "arc_no": "ARC04232",
+    "arc_expiry_date": "2026-01-07",
+    "employment_date": "2025-11-22",
+    "residence_address": "高雄市西屯區中正路2段38巷385號3樓",
+    "lease_id": null,
+    "client_id": 16,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.640Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 16,
+      "client_no": "B002",
+      "name": "聯發科"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 13,
+    "worker_no": "WB002-4",
+    "name_en": "ANA REYES",
+    "name_zh": "安娜",
+    "passport_no": "P79653",
+    "entry_date": "2025-09-18",
+    "arc_no": "ARC79653",
+    "arc_expiry_date": "2025-12-24",
+    "employment_date": "2025-11-22",
+    "residence_address": "台南市大安區和平路1段48巷141號9樓",
+    "lease_id": null,
+    "client_id": 16,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.647Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 16,
+      "client_no": "B002",
+      "name": "聯發科"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 14,
+    "worker_no": "WB002-5",
+    "name_en": "SOMYING JAI",
+    "name_zh": "頌英",
+    "passport_no": "P91304",
+    "entry_date": "2025-10-28",
+    "arc_no": "ARC91304",
+    "arc_expiry_date": "2025-11-29",
+    "employment_date": "2025-11-22",
+    "residence_address": "新北市西屯區信義路4段225巷456號12樓",
+    "lease_id": null,
+    "client_id": 16,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.653Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 16,
+      "client_no": "B002",
+      "name": "聯發科"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 15,
+    "worker_no": "WB002-6",
+    "name_en": "DEWI LESTARI",
+    "name_zh": "黛維",
+    "passport_no": "P99145",
+    "entry_date": "2025-09-15",
+    "arc_no": "ARC99145",
+    "arc_expiry_date": "2026-02-12",
+    "employment_date": "2025-11-22",
+    "residence_address": "台北市桃園區中華路1段69巷378號10樓",
+    "lease_id": null,
+    "client_id": 16,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.659Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 16,
+      "client_no": "B002",
+      "name": "聯發科"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 16,
+    "worker_no": "WB002-7",
+    "name_en": "EKO PRASETYO",
+    "name_zh": "艾科",
+    "passport_no": "P07626",
+    "entry_date": "2025-10-14",
+    "arc_no": "ARC07626",
+    "arc_expiry_date": "2026-03-05",
+    "employment_date": "2025-11-22",
+    "residence_address": "台北市板橋區民生路5段232巷348號14樓",
+    "lease_id": null,
+    "client_id": 16,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.667Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 16,
+      "client_no": "B002",
+      "name": "聯發科"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 17,
+    "worker_no": "WB002-8",
+    "name_en": "HOANG VAN LONG",
+    "name_zh": "黃文龍",
+    "passport_no": "P78487",
+    "entry_date": "2025-08-01",
+    "arc_no": "ARC78487",
+    "arc_expiry_date": "2026-03-14",
+    "employment_date": "2025-11-22",
+    "residence_address": "新北市信義區中正路4段203巷33號13樓",
+    "lease_id": null,
+    "client_id": 16,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.673Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 16,
+      "client_no": "B002",
+      "name": "聯發科"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 18,
+    "worker_no": "WB002-9",
+    "name_en": "VU THI LAN",
+    "name_zh": "武氏蘭",
+    "passport_no": "P64558",
+    "entry_date": "2025-08-25",
+    "arc_no": "ARC64558",
+    "arc_expiry_date": "2025-12-19",
+    "employment_date": "2025-11-22",
+    "residence_address": "台中市板橋區民權路2段50巷197號13樓",
+    "lease_id": null,
+    "client_id": 16,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.678Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 16,
+      "client_no": "B002",
+      "name": "聯發科"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 19,
+    "worker_no": "WB002-10",
+    "name_en": "MIGUEL LOPEZ",
+    "name_zh": "米格爾",
+    "passport_no": "P95999",
+    "entry_date": "2025-08-09",
+    "arc_no": "ARC95999",
+    "arc_expiry_date": "2026-02-12",
+    "employment_date": "2025-11-22",
+    "residence_address": "新北市安平區仁愛路1段89巷498號11樓",
+    "lease_id": null,
+    "client_id": 16,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.681Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 16,
+      "client_no": "B002",
+      "name": "聯發科"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 20,
+    "worker_no": "WB003-1",
+    "name_en": "ROSA DIMALANTA",
+    "name_zh": "羅莎",
+    "passport_no": "P38450",
+    "entry_date": "2025-09-22",
+    "arc_no": "ARC38450",
+    "arc_expiry_date": "2026-01-31",
+    "employment_date": "2025-11-22",
+    "residence_address": "台南市中正區民權路3段259巷104號2樓",
+    "lease_id": null,
+    "client_id": 17,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.685Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 17,
+      "client_no": "B003",
+      "name": "中華電信"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 21,
+    "worker_no": "WB003-2",
+    "name_en": "ARTHIT SUN",
+    "name_zh": "阿提特",
+    "passport_no": "P74671",
+    "entry_date": "2025-08-06",
+    "arc_no": "ARC74671",
+    "arc_expiry_date": "2026-02-11",
+    "employment_date": "2025-11-22",
+    "residence_address": "高雄市大安區和平路4段107巷300號4樓",
+    "lease_id": null,
+    "client_id": 17,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.689Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 17,
+      "client_no": "B003",
+      "name": "中華電信"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 22,
+    "worker_no": "WB003-3",
+    "name_en": "RINA WATI",
+    "name_zh": "瑞娜",
+    "passport_no": "P61432",
+    "entry_date": "2025-09-23",
+    "arc_no": "ARC61432",
+    "arc_expiry_date": "2025-12-01",
+    "employment_date": "2025-11-22",
+    "residence_address": "台中市中正區中山路5段182巷219號10樓",
+    "lease_id": null,
+    "client_id": 17,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.692Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 17,
+      "client_no": "B003",
+      "name": "中華電信"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 23,
+    "worker_no": "WB003-4",
+    "name_en": "BAMBANG SUSILO",
+    "name_zh": "班邦",
+    "passport_no": "P44813",
+    "entry_date": "2025-10-12",
+    "arc_no": "ARC44813",
+    "arc_expiry_date": "2025-12-27",
+    "employment_date": "2025-11-22",
+    "residence_address": "高雄市西屯區建國路4段71巷150號3樓",
+    "lease_id": null,
+    "client_id": 17,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.696Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 17,
+      "client_no": "B003",
+      "name": "中華電信"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 24,
+    "worker_no": "WB003-5",
+    "name_en": "DANG VAN MINH",
+    "name_zh": "鄧文明",
+    "passport_no": "P79604",
+    "entry_date": "2025-09-05",
+    "arc_no": "ARC79604",
+    "arc_expiry_date": "2026-01-13",
+    "employment_date": "2025-11-22",
+    "residence_address": "台北市中壢區中正路1段234巷388號2樓",
+    "lease_id": null,
+    "client_id": 17,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.700Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 17,
+      "client_no": "B003",
+      "name": "中華電信"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 25,
+    "worker_no": "WB003-6",
+    "name_en": "LY THI THU",
+    "name_zh": "李氏秋",
+    "passport_no": "P99825",
+    "entry_date": "2025-09-25",
+    "arc_no": "ARC99825",
+    "arc_expiry_date": "2025-12-30",
+    "employment_date": "2025-11-22",
+    "residence_address": "台中市板橋區中華路5段101巷111號10樓",
+    "lease_id": null,
+    "client_id": 17,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.704Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 17,
+      "client_no": "B003",
+      "name": "中華電信"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 26,
+    "worker_no": "WB004-1",
+    "name_en": "PEDRO PENDUKO",
+    "name_zh": "佩德羅",
+    "passport_no": "P64710",
+    "entry_date": "2025-09-27",
+    "arc_no": "ARC64710",
+    "arc_expiry_date": "2026-03-05",
+    "employment_date": "2025-11-22",
+    "residence_address": "高雄市中正區建國路1段261巷87號5樓",
+    "lease_id": null,
+    "client_id": 18,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.708Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 18,
+      "client_no": "B004",
+      "name": "富邦金控"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 27,
+    "worker_no": "WB004-2",
+    "name_en": "LIZA SOBERANO",
+    "name_zh": "麗莎",
+    "passport_no": "P75961",
+    "entry_date": "2025-09-12",
+    "arc_no": "ARC75961",
+    "arc_expiry_date": "2026-01-24",
+    "employment_date": "2025-11-22",
+    "residence_address": "高雄市中正區建國路1段206巷264號8樓",
+    "lease_id": null,
+    "client_id": 18,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.711Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 18,
+      "client_no": "B004",
+      "name": "富邦金控"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 28,
+    "worker_no": "WB004-3",
+    "name_en": "KANYA RATANA",
+    "name_zh": "卡妮雅",
+    "passport_no": "P19912",
+    "entry_date": "2025-10-25",
+    "arc_no": "ARC19912",
+    "arc_expiry_date": "2025-12-17",
+    "employment_date": "2025-11-22",
+    "residence_address": "新北市西屯區中正路4段82巷228號11樓",
+    "lease_id": null,
+    "client_id": 18,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.715Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 18,
+      "client_no": "B004",
+      "name": "富邦金控"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 29,
+    "worker_no": "WB004-4",
+    "name_en": "SRI WAHYUNI",
+    "name_zh": "斯里",
+    "passport_no": "P36053",
+    "entry_date": "2025-10-09",
+    "arc_no": "ARC36053",
+    "arc_expiry_date": "2025-12-17",
+    "employment_date": "2025-11-22",
+    "residence_address": "台南市北區仁愛路5段39巷447號9樓",
+    "lease_id": null,
+    "client_id": 18,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.719Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 18,
+      "client_no": "B004",
+      "name": "富邦金控"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 30,
+    "worker_no": "WB004-5",
+    "name_en": "ADI PUTRA",
+    "name_zh": "阿迪",
+    "passport_no": "P29674",
+    "entry_date": "2025-08-11",
+    "arc_no": "ARC29674",
+    "arc_expiry_date": "2026-01-31",
+    "employment_date": "2025-11-22",
+    "residence_address": "新北市大安區中正路4段23巷169號3樓",
+    "lease_id": null,
+    "client_id": 18,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.722Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 18,
+      "client_no": "B004",
+      "name": "富邦金控"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 31,
+    "worker_no": "WB004-6",
+    "name_en": "BU VIET ANH",
+    "name_zh": "裴越英",
+    "passport_no": "P05005",
+    "entry_date": "2025-09-26",
+    "arc_no": "ARC05005",
+    "arc_expiry_date": "2025-12-09",
+    "employment_date": "2025-11-22",
+    "residence_address": "桃園市大安區和平路3段165巷52號8樓",
+    "lease_id": null,
+    "client_id": 18,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.725Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 18,
+      "client_no": "B004",
+      "name": "富邦金控"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 32,
+    "worker_no": "WB004-7",
+    "name_en": "DO THI HA",
+    "name_zh": "杜氏霞",
+    "passport_no": "P40556",
+    "entry_date": "2025-11-11",
+    "arc_no": "ARC40556",
+    "arc_expiry_date": "2026-01-25",
+    "employment_date": "2025-11-22",
+    "residence_address": "高雄市信義區信義路1段148巷493號12樓",
+    "lease_id": null,
+    "client_id": 18,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.730Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 18,
+      "client_no": "B004",
+      "name": "富邦金控"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 33,
+    "worker_no": "WB004-8",
+    "name_en": "CARLOS YE",
+    "name_zh": "卡洛斯",
+    "passport_no": "P91237",
+    "entry_date": "2025-10-23",
+    "arc_no": "ARC91237",
+    "arc_expiry_date": "2026-03-01",
+    "employment_date": "2025-11-22",
+    "residence_address": "台北市信義區中華路4段216巷381號11樓",
+    "lease_id": null,
+    "client_id": 18,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.733Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 18,
+      "client_no": "B004",
+      "name": "富邦金控"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 34,
+    "worker_no": "WB005-1",
+    "name_en": "ELENA GILBERT",
+    "name_zh": "艾琳娜",
+    "passport_no": "P33630",
+    "entry_date": "2025-09-05",
+    "arc_no": "ARC33630",
+    "arc_expiry_date": "2025-11-25",
+    "employment_date": "2025-11-22",
+    "residence_address": "台南市安平區中華路1段197巷246號5樓",
+    "lease_id": null,
+    "client_id": 19,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.737Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 19,
+      "client_no": "B005",
+      "name": "長榮海運"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 35,
+    "worker_no": "WB005-2",
+    "name_en": "MALIEE ROSE",
+    "name_zh": "瑪莉",
+    "passport_no": "P99101",
+    "entry_date": "2025-11-11",
+    "arc_no": "ARC99101",
+    "arc_expiry_date": "2025-12-13",
+    "employment_date": "2025-11-22",
+    "residence_address": "桃園市前金區民生路1段245巷405號9樓",
+    "lease_id": null,
+    "client_id": 19,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.741Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 19,
+      "client_no": "B005",
+      "name": "長榮海運"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 36,
+    "worker_no": "WB005-3",
+    "name_en": "YULI ANTI",
+    "name_zh": "尤莉",
+    "passport_no": "P47082",
+    "entry_date": "2025-08-14",
+    "arc_no": "ARC47082",
+    "arc_expiry_date": "2026-02-27",
+    "employment_date": "2025-11-22",
+    "residence_address": "新北市安平區中山路4段199巷365號15樓",
+    "lease_id": null,
+    "client_id": 19,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.744Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 19,
+      "client_no": "B005",
+      "name": "長榮海運"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 37,
+    "worker_no": "WB005-4",
+    "name_en": "RIZKY FEBRIAN",
+    "name_zh": "里茲基",
+    "passport_no": "P57483",
+    "entry_date": "2025-10-13",
+    "arc_no": "ARC57483",
+    "arc_expiry_date": "2026-03-14",
+    "employment_date": "2025-11-22",
+    "residence_address": "新北市大安區和平路1段265巷14號2樓",
+    "lease_id": null,
+    "client_id": 19,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.748Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 19,
+      "client_no": "B005",
+      "name": "長榮海運"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 38,
+    "worker_no": "WB005-5",
+    "name_en": "TRUONG VAN DAO",
+    "name_zh": "張文道",
+    "passport_no": "P03164",
+    "entry_date": "2025-10-06",
+    "arc_no": "ARC03164",
+    "arc_expiry_date": "2026-01-04",
+    "employment_date": "2025-11-22",
+    "residence_address": "台中市大安區民生路5段56巷26號7樓",
+    "lease_id": null,
+    "client_id": 19,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.753Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 19,
+      "client_no": "B005",
+      "name": "長榮海運"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 39,
+    "worker_no": "WB006-1",
+    "name_en": "NGO THI HUONG",
+    "name_zh": "吳氏香",
+    "passport_no": "P56920",
+    "entry_date": "2025-09-25",
+    "arc_no": "ARC56920",
+    "arc_expiry_date": "2026-01-12",
+    "employment_date": "2025-11-22",
+    "residence_address": "桃園市大安區建國路3段48巷147號12樓",
+    "lease_id": null,
+    "client_id": 20,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.758Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 20,
+      "client_no": "B006",
+      "name": "統一企業"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 40,
+    "worker_no": "WB006-2",
+    "name_en": "LUIS MANZANO",
+    "name_zh": "路易斯",
+    "passport_no": "P28081",
+    "entry_date": "2025-10-05",
+    "arc_no": "ARC28081",
+    "arc_expiry_date": "2025-12-18",
+    "employment_date": "2025-11-22",
+    "residence_address": "高雄市板橋區中華路5段20巷210號13樓",
+    "lease_id": null,
+    "client_id": 20,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.764Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 20,
+      "client_no": "B006",
+      "name": "統一企業"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 41,
+    "worker_no": "WB006-3",
+    "name_en": "CATRIONA GRAY",
+    "name_zh": "卡翠娜",
+    "passport_no": "P23932",
+    "entry_date": "2025-11-17",
+    "arc_no": "ARC23932",
+    "arc_expiry_date": "2026-02-22",
+    "employment_date": "2025-11-22",
+    "residence_address": "高雄市板橋區民權路4段146巷48號2樓",
+    "lease_id": null,
+    "client_id": 20,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.773Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 20,
+      "client_no": "B006",
+      "name": "統一企業"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 42,
+    "worker_no": "WB006-4",
+    "name_en": "ANANDA EVERINGHAM",
+    "name_zh": "阿南達",
+    "passport_no": "P38403",
+    "entry_date": "2025-08-28",
+    "arc_no": "ARC38403",
+    "arc_expiry_date": "2026-01-03",
+    "employment_date": "2025-11-22",
+    "residence_address": "台南市中正區仁愛路5段288巷114號9樓",
+    "lease_id": null,
+    "client_id": 20,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.777Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 20,
+      "client_no": "B006",
+      "name": "統一企業"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 43,
+    "worker_no": "WB006-5",
+    "name_en": "NUR AINI",
+    "name_zh": "努爾",
+    "passport_no": "P97624",
+    "entry_date": "2025-09-22",
+    "arc_no": "ARC97624",
+    "arc_expiry_date": "2026-03-01",
+    "employment_date": "2025-11-22",
+    "residence_address": "高雄市中壢區建國路2段183巷492號14樓",
+    "lease_id": null,
+    "client_id": 20,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.781Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 20,
+      "client_no": "B006",
+      "name": "統一企業"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 44,
+    "worker_no": "WB006-6",
+    "name_en": "DWI CAHYONO",
+    "name_zh": "德維",
+    "passport_no": "P68305",
+    "entry_date": "2025-10-20",
+    "arc_no": "ARC68305",
+    "arc_expiry_date": "2026-02-08",
+    "employment_date": "2025-11-22",
+    "residence_address": "高雄市桃園區中華路3段192巷409號8樓",
+    "lease_id": null,
+    "client_id": 20,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.785Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 20,
+      "client_no": "B006",
+      "name": "統一企業"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 45,
+    "worker_no": "WB007-1",
+    "name_en": "DINH VAN TUAN",
+    "name_zh": "丁文俊",
+    "passport_no": "P12430",
+    "entry_date": "2025-10-01",
+    "arc_no": "ARC12430",
+    "arc_expiry_date": "2026-01-02",
+    "employment_date": "2025-11-22",
+    "residence_address": "高雄市北區中華路1段185巷176號2樓",
+    "lease_id": null,
+    "client_id": 21,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.790Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 21,
+      "client_no": "B007",
+      "name": "中鋼"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 46,
+    "worker_no": "WB007-2",
+    "name_en": "DUONG THI TUYET",
+    "name_zh": "楊氏雪",
+    "passport_no": "P63241",
+    "entry_date": "2025-08-10",
+    "arc_no": "ARC63241",
+    "arc_expiry_date": "2025-12-20",
+    "employment_date": "2025-11-22",
+    "residence_address": "新北市中壢區民權路2段135巷355號12樓",
+    "lease_id": null,
+    "client_id": 21,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.794Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 21,
+      "client_no": "B007",
+      "name": "中鋼"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 47,
+    "worker_no": "WB007-3",
+    "name_en": "MANUEL QUEZON",
+    "name_zh": "曼努埃爾",
+    "passport_no": "P88842",
+    "entry_date": "2025-09-02",
+    "arc_no": "ARC88842",
+    "arc_expiry_date": "2026-03-17",
+    "employment_date": "2025-11-22",
+    "residence_address": "高雄市中壢區信義路3段298巷90號15樓",
+    "lease_id": null,
+    "client_id": 21,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.798Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 21,
+      "client_no": "B007",
+      "name": "中鋼"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 48,
+    "worker_no": "WB007-4",
+    "name_en": "GLORIA ARROYO",
+    "name_zh": "葛洛麗亞",
+    "passport_no": "P96003",
+    "entry_date": "2025-08-07",
+    "arc_no": "ARC96003",
+    "arc_expiry_date": "2026-01-27",
+    "employment_date": "2025-11-22",
+    "residence_address": "台中市中壢區和平路4段184巷67號12樓",
+    "lease_id": null,
+    "client_id": 21,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.803Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 21,
+      "client_no": "B007",
+      "name": "中鋼"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 49,
+    "worker_no": "WB007-5",
+    "name_en": "CHAIYAPHUM PANYA",
+    "name_zh": "猜亞蓬",
+    "passport_no": "P94194",
+    "entry_date": "2025-08-09",
+    "arc_no": "ARC94194",
+    "arc_expiry_date": "2025-12-30",
+    "employment_date": "2025-11-22",
+    "residence_address": "高雄市中壢區中華路1段56巷229號7樓",
+    "lease_id": null,
+    "client_id": 21,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.807Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 21,
+      "client_no": "B007",
+      "name": "中鋼"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 50,
+    "worker_no": "WB007-6",
+    "name_en": "RATNA SARI",
+    "name_zh": "拉特納",
+    "passport_no": "P34065",
+    "entry_date": "2025-09-29",
+    "arc_no": "ARC34065",
+    "arc_expiry_date": "2026-03-15",
+    "employment_date": "2025-11-22",
+    "residence_address": "台南市信義區信義路3段170巷143號4樓",
+    "lease_id": null,
+    "client_id": 21,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.811Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 21,
+      "client_no": "B007",
+      "name": "中鋼"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 51,
+    "worker_no": "WB007-7",
+    "name_en": "INDRA LESMANA",
+    "name_zh": "因陀羅",
+    "passport_no": "P96236",
+    "entry_date": "2025-09-06",
+    "arc_no": "ARC96236",
+    "arc_expiry_date": "2026-03-05",
+    "employment_date": "2025-11-22",
+    "residence_address": "高雄市中正區中山路1段61巷425號12樓",
+    "lease_id": null,
+    "client_id": 21,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.815Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 21,
+      "client_no": "B007",
+      "name": "中鋼"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 52,
+    "worker_no": "WB007-8",
+    "name_en": "VO VAN KIET",
+    "name_zh": "武文傑",
+    "passport_no": "P35507",
+    "entry_date": "2025-11-14",
+    "arc_no": "ARC35507",
+    "arc_expiry_date": "2026-03-07",
+    "employment_date": "2025-11-22",
+    "residence_address": "高雄市安平區信義路1段209巷199號7樓",
+    "lease_id": null,
+    "client_id": 21,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.818Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 21,
+      "client_no": "B007",
+      "name": "中鋼"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 53,
+    "worker_no": "WB007-9",
+    "name_en": "HA THI NHUNG",
+    "name_zh": "何氏絨",
+    "passport_no": "P86148",
+    "entry_date": "2025-10-15",
+    "arc_no": "ARC86148",
+    "arc_expiry_date": "2025-12-01",
+    "employment_date": "2025-11-22",
+    "residence_address": "新北市桃園區仁愛路2段233巷357號4樓",
+    "lease_id": null,
+    "client_id": 21,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.822Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 21,
+      "client_no": "B007",
+      "name": "中鋼"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 54,
+    "worker_no": "WB007-10",
+    "name_en": "FERDINAND MARCOS",
+    "name_zh": "斐迪南",
+    "passport_no": "P89929",
+    "entry_date": "2025-11-20",
+    "arc_no": "ARC89929",
+    "arc_expiry_date": "2026-01-01",
+    "employment_date": "2025-11-22",
+    "residence_address": "台北市中正區和平路2段123巷486號13樓",
+    "lease_id": null,
+    "client_id": 21,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.825Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 21,
+      "client_no": "B007",
+      "name": "中鋼"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 55,
+    "worker_no": "WB008-1",
+    "name_en": "CORAZON AQUINO",
+    "name_zh": "柯拉蓉",
+    "passport_no": "P06830",
+    "entry_date": "2025-10-01",
+    "arc_no": "ARC06830",
+    "arc_expiry_date": "2025-11-26",
+    "employment_date": "2025-11-22",
+    "residence_address": "台北市前金區中華路2段143巷234號10樓",
+    "lease_id": null,
+    "client_id": 22,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.829Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 22,
+      "client_no": "B008",
+      "name": "台塑"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 56,
+    "worker_no": "WB008-2",
+    "name_en": "THAKSIN SHINAWATRA",
+    "name_zh": "塔克辛",
+    "passport_no": "P36811",
+    "entry_date": "2025-10-24",
+    "arc_no": "ARC36811",
+    "arc_expiry_date": "2025-12-02",
+    "employment_date": "2025-11-22",
+    "residence_address": "新北市信義區和平路1段139巷287號2樓",
+    "lease_id": null,
+    "client_id": 22,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.832Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 22,
+      "client_no": "B008",
+      "name": "台塑"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 57,
+    "worker_no": "WB008-3",
+    "name_en": "MEGAWATI SUKARNOPUTRI",
+    "name_zh": "梅嘉娃蒂",
+    "passport_no": "P90752",
+    "entry_date": "2025-08-18",
+    "arc_no": "ARC90752",
+    "arc_expiry_date": "2026-02-13",
+    "employment_date": "2025-11-22",
+    "residence_address": "台中市北區中正路2段170巷121號2樓",
+    "lease_id": null,
+    "client_id": 22,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.836Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 22,
+      "client_no": "B008",
+      "name": "台塑"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 58,
+    "worker_no": "WB008-4",
+    "name_en": "JOKO WIDODO",
+    "name_zh": "佐科",
+    "passport_no": "P80573",
+    "entry_date": "2025-10-05",
+    "arc_no": "ARC80573",
+    "arc_expiry_date": "2025-12-05",
+    "employment_date": "2025-11-22",
+    "residence_address": "桃園市大安區和平路4段50巷482號10樓",
+    "lease_id": null,
+    "client_id": 22,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.839Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 22,
+      "client_no": "B008",
+      "name": "台塑"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 59,
+    "worker_no": "WB008-5",
+    "name_en": "PHAN VAN KHAI",
+    "name_zh": "潘文凱",
+    "passport_no": "P58454",
+    "entry_date": "2025-08-25",
+    "arc_no": "ARC58454",
+    "arc_expiry_date": "2025-12-25",
+    "employment_date": "2025-11-22",
+    "residence_address": "台中市西屯區和平路4段163巷316號6樓",
+    "lease_id": null,
+    "client_id": 22,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.843Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 22,
+      "client_no": "B008",
+      "name": "台塑"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 60,
+    "worker_no": "WB008-6",
+    "name_en": "NGUYEN THI KIM",
+    "name_zh": "阮氏金",
+    "passport_no": "P11695",
+    "entry_date": "2025-11-15",
+    "arc_no": "ARC11695",
+    "arc_expiry_date": "2026-03-06",
+    "employment_date": "2025-11-22",
+    "residence_address": "台南市中正區中山路3段144巷481號1樓",
+    "lease_id": null,
+    "client_id": 22,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.846Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 22,
+      "client_no": "B008",
+      "name": "台塑"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 61,
+    "worker_no": "WB008-7",
+    "name_en": "RODRIGO DUTERTE",
+    "name_zh": "羅德里戈",
+    "passport_no": "P79766",
+    "entry_date": "2025-07-31",
+    "arc_no": "ARC79766",
+    "arc_expiry_date": "2026-01-23",
+    "employment_date": "2025-11-22",
+    "residence_address": "新北市中正區中山路1段30巷224號10樓",
+    "lease_id": null,
+    "client_id": 22,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.850Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 22,
+      "client_no": "B008",
+      "name": "台塑"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 62,
+    "worker_no": "WB009-1",
+    "name_en": "LENI ROBREDO",
+    "name_zh": "雷妮",
+    "passport_no": "P91890",
+    "entry_date": "2025-09-24",
+    "arc_no": "ARC91890",
+    "arc_expiry_date": "2026-02-13",
+    "employment_date": "2025-11-22",
+    "residence_address": "新北市中正區信義路4段93巷458號1樓",
+    "lease_id": null,
+    "client_id": 23,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.854Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 23,
+      "client_no": "B009",
+      "name": "國泰人壽"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 63,
+    "worker_no": "WB009-2",
+    "name_en": "PRAYUT CHAN-O-CHA",
+    "name_zh": "帕拉育",
+    "passport_no": "P02481",
+    "entry_date": "2025-08-21",
+    "arc_no": "ARC02481",
+    "arc_expiry_date": "2025-12-09",
+    "employment_date": "2025-11-22",
+    "residence_address": "高雄市板橋區民生路3段231巷90號10樓",
+    "lease_id": null,
+    "client_id": 23,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.858Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 23,
+      "client_no": "B009",
+      "name": "國泰人壽"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 64,
+    "worker_no": "WB009-3",
+    "name_en": "SUSILO BAMBANG",
+    "name_zh": "蘇西洛",
+    "passport_no": "P49682",
+    "entry_date": "2025-11-03",
+    "arc_no": "ARC49682",
+    "arc_expiry_date": "2026-02-22",
+    "employment_date": "2025-11-22",
+    "residence_address": "高雄市中正區民權路5段197巷354號5樓",
+    "lease_id": null,
+    "client_id": 23,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.861Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 23,
+      "client_no": "B009",
+      "name": "國泰人壽"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 65,
+    "worker_no": "WB009-4",
+    "name_en": "ABDEL FATTAH",
+    "name_zh": "阿卜杜勒",
+    "passport_no": "P13713",
+    "entry_date": "2025-10-04",
+    "arc_no": "ARC13713",
+    "arc_expiry_date": "2026-02-09",
+    "employment_date": "2025-11-22",
+    "residence_address": "桃園市大安區中山路5段154巷495號4樓",
+    "lease_id": null,
+    "client_id": 23,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.865Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 23,
+      "client_no": "B009",
+      "name": "國泰人壽"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 66,
+    "worker_no": "WB009-5",
+    "name_en": "TRAN DAI QUANG",
+    "name_zh": "陳大光",
+    "passport_no": "P23074",
+    "entry_date": "2025-09-25",
+    "arc_no": "ARC23074",
+    "arc_expiry_date": "2025-11-26",
+    "employment_date": "2025-11-22",
+    "residence_address": "台中市前金區民生路5段262巷442號7樓",
+    "lease_id": null,
+    "client_id": 23,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.869Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 23,
+      "client_no": "B009",
+      "name": "國泰人壽"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 67,
+    "worker_no": "WB009-6",
+    "name_en": "NGUYEN THI BINH",
+    "name_zh": "阮氏萍",
+    "passport_no": "P54525",
+    "entry_date": "2025-11-08",
+    "arc_no": "ARC54525",
+    "arc_expiry_date": "2025-12-09",
+    "employment_date": "2025-11-22",
+    "residence_address": "新北市北區中正路2段283巷406號13樓",
+    "lease_id": null,
+    "client_id": 23,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.872Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 23,
+      "client_no": "B009",
+      "name": "國泰人壽"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 68,
+    "worker_no": "WB009-7",
+    "name_en": "BENIGNO AQUINO",
+    "name_zh": "艾奎諾",
+    "passport_no": "P84176",
+    "entry_date": "2025-11-02",
+    "arc_no": "ARC84176",
+    "arc_expiry_date": "2026-02-19",
+    "employment_date": "2025-11-22",
+    "residence_address": "桃園市安平區中正路2段220巷248號10樓",
+    "lease_id": null,
+    "client_id": 23,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.875Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 23,
+      "client_no": "B009",
+      "name": "國泰人壽"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 69,
+    "worker_no": "WB010-1",
+    "name_en": "IMELDA MARCOS",
+    "name_zh": "伊美黛",
+    "passport_no": "P37550",
+    "entry_date": "2025-08-31",
+    "arc_no": "ARC37550",
+    "arc_expiry_date": "2025-12-23",
+    "employment_date": "2025-11-22",
+    "residence_address": "台南市前金區中華路1段99巷285號6樓",
+    "lease_id": null,
+    "client_id": 24,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.879Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 24,
+      "client_no": "B010",
+      "name": "華碩電腦"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 70,
+    "worker_no": "WB010-2",
+    "name_en": "YINGLUCK SHINAWATRA",
+    "name_zh": "盈拉",
+    "passport_no": "P91651",
+    "entry_date": "2025-09-21",
+    "arc_no": "ARC91651",
+    "arc_expiry_date": "2026-02-24",
+    "employment_date": "2025-11-22",
+    "residence_address": "台南市大安區中正路1段287巷192號11樓",
+    "lease_id": null,
+    "client_id": 24,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.882Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 24,
+      "client_no": "B010",
+      "name": "華碩電腦"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 71,
+    "worker_no": "WB010-3",
+    "name_en": "GITA GUTAWA",
+    "name_zh": "吉塔",
+    "passport_no": "P11062",
+    "entry_date": "2025-08-20",
+    "arc_no": "ARC11062",
+    "arc_expiry_date": "2026-03-17",
+    "employment_date": "2025-11-22",
+    "residence_address": "台中市信義區中華路2段196巷202號5樓",
+    "lease_id": null,
+    "client_id": 24,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.885Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 24,
+      "client_no": "B010",
+      "name": "華碩電腦"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 72,
+    "worker_no": "WB010-4",
+    "name_en": "AFGAN SYAHREZA",
+    "name_zh": "阿夫甘",
+    "passport_no": "P98893",
+    "entry_date": "2025-10-26",
+    "arc_no": "ARC98893",
+    "arc_expiry_date": "2025-11-30",
+    "employment_date": "2025-11-22",
+    "residence_address": "台北市前金區中山路5段58巷465號9樓",
+    "lease_id": null,
+    "client_id": 24,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.889Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 24,
+      "client_no": "B010",
+      "name": "華碩電腦"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 73,
+    "worker_no": "WB010-5",
+    "name_en": "MY TAM",
+    "name_zh": "美心",
+    "passport_no": "P75894",
+    "entry_date": "2025-09-27",
+    "arc_no": "ARC75894",
+    "arc_expiry_date": "2026-01-03",
+    "employment_date": "2025-11-22",
+    "residence_address": "台北市中壢區信義路2段78巷105號11樓",
+    "lease_id": null,
+    "client_id": 24,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.892Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 24,
+      "client_no": "B010",
+      "name": "華碩電腦"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 74,
+    "worker_no": "WB010-6",
+    "name_en": "SON TUNG MTP",
+    "name_zh": "山松",
+    "passport_no": "P67695",
+    "entry_date": "2025-10-17",
+    "arc_no": "ARC67695",
+    "arc_expiry_date": "2025-12-29",
+    "employment_date": "2025-11-22",
+    "residence_address": "台南市大安區民生路2段75巷418號9樓",
+    "lease_id": null,
+    "client_id": 24,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.896Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 24,
+      "client_no": "B010",
+      "name": "華碩電腦"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 75,
+    "worker_no": "WB010-7",
+    "name_en": "SARAH GERONIMO",
+    "name_zh": "莎拉",
+    "passport_no": "P89586",
+    "entry_date": "2025-09-22",
+    "arc_no": "ARC89586",
+    "arc_expiry_date": "2026-03-13",
+    "employment_date": "2025-11-22",
+    "residence_address": "桃園市安平區信義路4段103巷267號10樓",
+    "lease_id": null,
+    "client_id": 24,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.902Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 24,
+      "client_no": "B010",
+      "name": "華碩電腦"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 76,
+    "worker_no": "WB010-8",
+    "name_en": "LEA SALONGA",
+    "name_zh": "莉亞",
+    "passport_no": "P46207",
+    "entry_date": "2025-08-23",
+    "arc_no": "ARC46207",
+    "arc_expiry_date": "2026-02-07",
+    "employment_date": "2025-11-22",
+    "residence_address": "台中市信義區中山路4段101巷183號4樓",
+    "lease_id": null,
+    "client_id": 24,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.907Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 24,
+      "client_no": "B010",
+      "name": "華碩電腦"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  },
+  {
+    "id": 77,
+    "worker_no": "WB010-9",
+    "name_en": "BIRD THONGCHAI",
+    "name_zh": "鳥伯",
+    "passport_no": "P88088",
+    "entry_date": "2025-10-20",
+    "arc_no": "ARC88088",
+    "arc_expiry_date": "2026-02-18",
+    "employment_date": "2025-11-22",
+    "residence_address": "台中市前金區民權路2段221巷308號12樓",
+    "lease_id": null,
+    "client_id": 24,
+    "maintenance_id": 1,
+    "createdAt": "2025-11-22T07:55:47.918Z",
+    "updatedAt": "2025-11-22T10:40:52.100Z",
+    "Client": {
+      "id": 24,
+      "client_no": "B010",
+      "name": "華碩電腦"
+    },
+    "Maintenance": {
+      "id": 1,
+      "username": "0000000"
+    }
+  }
+]
