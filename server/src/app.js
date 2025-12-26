@@ -1,6 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const { connectDB, sequelize } = require('./database');
+const { User } = require('./models');
 
 const authRoutes = require('./routes/auth');
 const systemRoutes = require('./routes/system');
@@ -33,13 +34,37 @@ app.get('/', (req, res) => {
 
 // Start Server
 const startServer = async () => {
-    await connectDB();
-    // Sync models (we will add this later)
-    // await sequelize.sync({ force: false }); 
+    try {
+        await connectDB();
 
-    app.listen(PORT, () => {
-        console.log(`Server is running on http://localhost:${PORT}`);
-    });
+        // Sync models
+        await sequelize.sync();
+
+        // Auto-seed if database is empty
+        const userCount = await User.count();
+        if (userCount === 0) {
+            console.log('Database is empty, running auto-seed...');
+            const { Role } = require('./models');
+            const bcrypt = require('bcrypt');
+
+            const adminRole = await Role.create({ name: 'Admin', description: 'Administrator' });
+            await Role.create({ name: 'Staff', description: 'Staff' });
+
+            const adminPassword = await bcrypt.hash('1234', 10);
+            await User.create({
+                username: 'adm',
+                password: adminPassword,
+                role_id: adminRole.id
+            });
+            console.log('Auto-seed completed. Account: adm / 1234');
+        }
+
+        app.listen(PORT, () => {
+            console.log(`Server is running on http://localhost:${PORT}`);
+        });
+    } catch (error) {
+        console.error('Failed to start server:', error);
+    }
 };
 
 startServer();

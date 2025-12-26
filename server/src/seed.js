@@ -50,10 +50,17 @@ const seedDatabase = async () => {
 
         // 5. Create Users
         const hashedPassword = await bcrypt.hash('password', 10);
+        const adminPassword = await bcrypt.hash('1234', 10);
 
         await User.create({
             username: 'admin',
             password: hashedPassword,
+            role_id: adminRole.id
+        });
+
+        await User.create({
+            username: 'adm',
+            password: adminPassword,
             role_id: adminRole.id
         });
 
